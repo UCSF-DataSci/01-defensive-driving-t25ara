@@ -61,7 +61,7 @@ def main():
 
     # Test data: (name, weight_kg, height_cm)
     test_patients = [
-        ("Patient A", 68, 170),   # Should be ~23.5 BMI (normal)
+        ("Patient A", 70, 175),   # Should be ~23.5 BMI (normal)
         ("Patient B", 95, 180),   # Should be ~29.3 BMI (overweight)
         ("Patient C", 52, 160),   # Should be ~20.3 BMI (normal)
         ("Patient D", 102, 175),  # Should be ~33.3 BMI (obese)
