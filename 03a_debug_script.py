@@ -12,7 +12,7 @@ Add comments explaining each fix when you're done.
 def calculate_bmi(weight_kg, height_cm):
     """Calculate BMI from weight (kg) and height (cm)."""
     height_m = height_cm / 100
-    bmi = weight_kg / height_m^2 #fixed the equation 
+    bmi = weight_kg / (height_m ** 2) #fixed the equation 
     return bmi
 
 
